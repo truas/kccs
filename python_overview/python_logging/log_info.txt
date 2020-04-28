@@ -1,0 +1,8 @@
+04-28 13:49 myapp.area1  DEBUG    Quick zephyrs blow, vexing daft Jim.
+04-28 13:49 myapp.area1  INFO     How quickly daft jumping zebras vex.
+04-28 13:49 myapp.area2  WARNING  Jail zesty vixen who grabbed pay from quack.
+04-28 13:49 myapp.area2  ERROR    The five boxing wizards jump quickly.
+04-28 13:49 myapp.area2  INFO     Info about Logger2 (App2).
+04-28 13:49 myapp.area2  DEBUG    Debug info about Logger2 (App2) only available in the log, not the console
+04-28 13:49 myapp.area1  DEBUG    Debug me later, debug me now, your code will be... phenomenal?
+04-28 13:49 root         INFO     Program finished with no errors

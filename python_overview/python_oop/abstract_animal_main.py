@@ -11,7 +11,11 @@ However, via command line  you can either:
 '''
 sys.path.append(os.path.join(os.path.dirname(__file__), os.path.pardir))
 
-from python_oop.inheritance_generic import KillerWhale
+from python_oop.abstract_animal_generic import Dolphins
 
 if __name__ == "__main__":
-    willy = KillerWhale()
+    flipper = Dolphins()
+    flipper.feed("shrimp")
+    flipper.sleep()
+
+
