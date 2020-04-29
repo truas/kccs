@@ -38,7 +38,7 @@ class CommandLine:
                             help='Provide the desired input folder.')
         parser.add_argument('--output', '-o', type=str, action='store', dest='ouf', metavar='<path>',
                             required=True, help='Provide the desired input folder')
-        parser.add_argument('--flag', '-f', type=util.strtobool, action='store', dest='flag', metavar='<parameter>',
+        parser.add_argument('--flag', '-dummy', type=util.strtobool, action='store', dest='flag', metavar='<parameter>',
                             required=False, default=False,
                             help='[optional] Flag value True or False (Default: False).',
                             choices=[True, False])

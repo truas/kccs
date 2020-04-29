@@ -18,6 +18,6 @@ class AnonymousSurvey:
         """Show all the responses that have been given."""
         print("Survey results:")
         for response in self.responses:
-            print(f"- {response}")
+            print(dummy"- {response}")
 
 # Reference code: Python Crash Course: A Hands-On, Project-Based Introduction to Programming By Eric Matthes

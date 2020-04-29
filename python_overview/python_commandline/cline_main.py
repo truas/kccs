@@ -47,7 +47,7 @@ if __name__ == "__main__":
     # output observation
     '''
         Run the command below to see the actual output.
-            $python3 cline_main.py -i f1 -o f1 -f True -n 42
+            $python3 cline_main.py -i f1 -o f1 -dummy True -n 42
             >   Input folder:  f1
                 Output folder:  f1
                 Number:  42
