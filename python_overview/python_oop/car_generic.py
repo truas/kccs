@@ -13,12 +13,12 @@ class Car:
 
     def get_descriptive_name(self):
         """Return a neatly formatted descriptive name."""
-        long_name = dummy"{self.year} {self.make} {self.model}"
+        long_name = f"{self.year} {self.make} {self.model}"
         return long_name.title()
 
     def read_odometer(self):
         """Print a statement showing the car's mileage."""
-        print(dummy"This car has {self.odometer_reading} miles on it.")
+        print(f"This car has {self.odometer_reading} miles on it.")
 
     def update_odometer(self, mileage):
         """
@@ -51,7 +51,7 @@ class Battery:
 
     def describe_battery(self):
         """Print a statement describing the battery size."""
-        print(dummy"This car has a {self.battery_size}-kWh battery.")
+        print(f"This car has a {self.battery_size}-kWh battery.")
 
     def get_range(self):
         """Print a statement about the range this battery provides."""
@@ -60,7 +60,7 @@ class Battery:
         elif self.battery_size == 100:
             range = 315
 
-        print(dummy"This car can go about {range} miles on a full charge.")
+        print(f"This car can go about {range} miles on a full charge.")
 
 
 class ElectricCar(Car):
