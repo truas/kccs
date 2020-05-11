@@ -1,8 +1,9 @@
 class MyOtherClass:
     num = 12345  # we have the same attribute in our class definition
+    dum = 300  # shared attribute
 
     def __init__(self, num=42):
-        self.num = num  # and we create the same one inside the contructor
+        self.num = num  # and we create the same one inside the constructor
 
 
 if __name__ == "__main__":
@@ -27,6 +28,9 @@ if __name__ == "__main__":
     See how each object instance has its own "num" value, either initialized or not
     However, this class attribute, is common to both of them and unaltered 
     '''
+    print('\nPython attributes')
+    print('Common attribute verification (dum): ', x.dum is y.dum)
+    print('Common attribute verification (num): ', x.num is y.num)
 
     print('\n=========Scope Search==============')
     print('First attribute search from object 1: ', x.num)  # 42 or 12345?

@@ -1,4 +1,4 @@
-class Being:
+class Being(object):
     def beingAlive(self):
         print("I am alive!")
 

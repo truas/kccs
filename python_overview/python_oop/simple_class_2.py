@@ -13,7 +13,7 @@ class MyClassConstructor:
     '''
         Can we create another constructor? to initialize our objects differently?
         Well, in Python this is not straight forward. We only use one constructor 
-        This contructor should deal with all cases.
+        This constructor should deal with all cases.
         Uncomment the block below and see what happens.
     '''
     # def __init__(self, real=1):
