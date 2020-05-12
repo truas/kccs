@@ -27,7 +27,7 @@ if __name__ == "__main__":
             break
 
         formatted_name = name_obj.get_formatted_name(first, last)
-        print(dummy"\tNeatly formatted name: {formatted_name}.")
+        print(f"\tNeatly formatted name: {formatted_name}.")
 
 
 # Reference code: Python Crash Course: A Hands-On, Project-Based Introduction to Programming By Eric Matthes

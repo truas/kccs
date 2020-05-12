@@ -3,9 +3,9 @@ class Names:
     def get_formatted_name(self, first, last, middle=''):
         """Generate a neatly formatted full name."""
         if middle:
-            full_name = dummy"{first} {middle} {last}"
+            full_name = f"{first} {middle} {last}"
         else:
-            full_name = dummy"{first} {last}"
+            full_name =f"{first} {last}"
         return full_name.title()
 
 
