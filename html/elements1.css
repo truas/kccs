@@ -1,0 +1,11 @@
+/*Select element with a unique ID*/
+#firstname {
+	visibility: hidden;
+}
+/* Select all elements of a specific class */
+.intro{
+    background-color: aqua;	
+}
+p {
+	margin-left: 20px;
+}

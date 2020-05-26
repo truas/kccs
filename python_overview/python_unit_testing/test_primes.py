@@ -21,7 +21,7 @@ class PrimesTestCase(unittest.TestCase):
     def test_is_five_prime(self):
         """Is five successfully determined to be prime?"""
         punit = Prime()
-        self.assertTrue(punit.is_prime(2))
+        self.assertTrue(punit.is_prime(5))
 
     def test_is_four_non_prime(self):
         """Is four correctly determined not to be prime?"""

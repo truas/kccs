@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="time"></p>
+
+<script>
+var day;
+var d = new Date();
+
+switch (d.getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday ";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+
+var fullyear = d.getFullYear();
+var month = d.getMonth();
+var date = d.getDate();
+var hours = d.getHours();
+var min = d.getMinutes();
+var sec = d.getSeconds();
+
+document.getElementById("time").innerHTML = "Today is " + day + "- " + fullyear+ "/" + (month+1)+ "/" + date + "<br>" 
++"Time: " + hours + ":" + min + ":" + sec;// + ":" sec;
+</script>
+
+
+
+
+</body>
+</html>

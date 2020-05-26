@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>String Swapping</h2>
+
+<p>This changes/swaps two strings</p>
+
+<button onclick="swapper()">SWAP</button>
+
+<p id="demo1">What is the asnwer? .</p>
+
+<script>
+function swapper() {
+  var str = document.getElementById("demo1").innerHTML; 
+  var txt = str.replace(".","It\'s 42");
+  document.getElementById("demo1").innerHTML = txt;
+}
+</script>

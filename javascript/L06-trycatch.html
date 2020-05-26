@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+var txt = "";
+function alert() {
+  try {
+    adddlert("Do you need any help?");
+  }
+  catch(err) {
+    txt = "There was an error when loading this page.\n\n";
+    txt += "Click OK to stay here,\n";
+    txt += "or Cancel to look for answers.\n\n";
+    if(!confirm(txt)) {
+      document.location.href = "https://www.google.com/";
+    }
+  }
+}
+</script>
+
+<body>
+
+<h2>JavaScript Error Handling - Try/Catch</h2>
+
+<input type="button" value="Help!" onclick="alert()" />
+
+</body>
+</html>

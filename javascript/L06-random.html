@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Random</h2>
+
+<p>Every time you click the button, randomize(min, max) returns a random number between 0 
+and 999 (both included):</p>
+
+<button onclick="document.getElementById('randme').innerHTML = randomize(0,1000)">Crystal Ball</button>
+
+<p id="randme"></p>
+
+<script>
+function randomize(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+</script>
+
+</body>
+</html>

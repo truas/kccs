@@ -15,7 +15,7 @@ try:
     data = cur.fetchone()
     print("SQLite version: %s" % data)
 except:
-    print("Error %s:" % e.args[0])
+    print("Error %s:" % sys.exc_info()[0])
     sys.exit(1)
 finally:
     if con:
